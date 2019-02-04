@@ -1,0 +1,234 @@
+html , body {
+    height: 100%;
+    margin: 0;
+    line-height: 1.8em;
+    color: #555555;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom Fonts Used */
+
+@font-face {
+    font-family: "Canvas_Regular";
+    src: url("fonts/Canvas_Regular.otf");
+}
+
+@font-face {
+    font-family: "Cassandra";
+    src: url("fonts/Cassandra.ttf");
+}
+
+@font-face {
+    font-family: "Coldiac";
+    src: url("fonts/Coldiac.ttf");
+}
+
+@font-face {
+    font-family: "Coldiac_Italic";
+    src: url("fonts/Coldiac_Italic.ttf");
+}
+
+@font-face {
+    font-family: "Evolve_Sans";
+    src: url("fonts/MADE_Evolve_Sans_Light.otf");
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("fonts/Lato.ttf");
+}
+
+@font-face {
+    font-family: "Lato_Light";
+    src: url("fonts/Lato_Light.ttf");
+}
+
+@font-face {
+    font-family: "Lovelyn";
+    src: url("fonts/Lovelyn.ttf");
+}
+
+@font-face {
+    font-family: "Sanford";
+    src: url("fonts/Sanford.ttf");
+}
+
+
+/* End of Custom Fonts */
+
+/* Navigation Bar */
+
+.navibar {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding-right: 10px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    width: 100%;
+    font-family: "Evolve_Sans";
+    font-size: 20px
+}
+
+.navibar li {
+    float: right;
+}
+
+.navibar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s
+}
+
+.navibar li a:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #FFEAEC;
+}
+
+.navibar .ulleft {
+    float: left;
+    margin-left: -30px;
+    font-family: "Cassandra";
+    font-size: 14px;
+}
+
+/* End of Navigation Bar */
+
+/* Parallax Effect + Images*/
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7 {
+    position:relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg1 {
+    background-image: url("images/loveletterimage1_darken.jpg");
+    min-height: 100%;
+}
+
+.pimg2 {
+    background-image: url("images/loveletterimage1.jpg");
+    min-height: 400px;
+}
+
+.pimg3 {
+    background-image: url("images/loveletterimage2.jpg");
+    min-height: 400px;
+}
+
+.pimg4 {
+    background-image: url("images/loveletterimage3.jpg");
+    min-height: 200px;
+}
+
+/* End of Parallax Effect + Images */
+
+
+/* Main Content */
+
+/* Tabellarium */
+
+.ptext {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    color: #FFEAEC;
+    font-family: "Cassandra";
+    font-size: 100px;
+    letter-spacing: 5px;
+}
+
+h3 {
+    position: absolute;
+    top: 58%;
+    width: 100%;
+    text-align: center;
+    color: #FFEAEC;
+    font-family: "Lato_Light";
+    font-size: 40px;
+}
+
+/* Rest of the text*/
+
+.text1, .text2, .text3, .text4 {
+    background-color: #F7FFF7;
+    text-align: center;
+    padding: 50px 400px;
+    font-family: "Sanford";
+    font-size: 20px;
+}
+
+.text1, .text3 {
+    text-indent: 50px
+}
+
+
+h2 {
+    font-family: "Coldiac_Italic";
+    font-size: 40px;
+    padding-right: 50px;
+}
+
+.text4 h2 {
+    padding-left: 50px
+}
+
+/* Services Grid */
+
+.grid {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 90px 90px;
+    grid-row-gap: 25px;
+    grid-column-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.service_grid {
+    list-style-type: none;
+    background-color: #F3DED2;
+}
+
+.service_grid a {
+    display: block;
+    width: 100%;
+    color: #666;
+    text-decoration: none;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s
+}
+
+.service_grid a:hover {
+    background-color: #333333;
+    color: #F3DED2;
+}
+
+/* Commissions List*/
+
+.comminfo {
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 30px;
+}
+
+/* End of Main Content */
