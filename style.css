@@ -190,8 +190,10 @@ h3 {
 
 h2 {
     font-family: "Coldiac_Italic";
-    font-size: 40px;
-    padding-right: 50px;
+    font-size: 50px;
+    padding-right: 45px;
+    padding-bottom: 8px;
+    font-weight: 600;
 }
 
 .text3 h2 {
