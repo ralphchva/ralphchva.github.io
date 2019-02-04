@@ -37,6 +37,16 @@ html {
 }
 
 @font-face {
+    font-family: "Gotham_Book";
+    src: url("fonts/Gotham_Book.ttf");
+}
+
+@font-face {
+    font-family: "Gotham_Light";
+    src: url("fonts/Gotham_Light.ttf");
+}
+
+@font-face {
     font-family: "Lato";
     src: url("fonts/Lato.ttf");
 }
@@ -165,16 +175,16 @@ h3 {
 
 /* Rest of the text*/
 
-.text1, .text2, .text3, .text4 {
+.text1, .text2, .text3 {
     background-color: #F7FFF7;
     text-align: center;
     padding: 50px 400px;
-    font-family: "Sanford";
+    font-family: "Gotham_Book";
     font-size: 20px;
 }
 
-.text1, .text3 {
-    text-indent: 50px
+.text1 {
+    text-indent: 50px;
 }
 
 
@@ -184,7 +194,7 @@ h2 {
     padding-right: 50px;
 }
 
-.text4 h2 {
+.text3 h2 {
     padding-left: 50px
 }
 
